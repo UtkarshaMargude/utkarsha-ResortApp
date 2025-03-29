@@ -1,0 +1,42 @@
+@import "../../../sass/main.scss";
+.carousel_info_card {
+  position: relative;
+  height: 50rem;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease-in-out; // Add transition for smooth effect
+border-radius: 5rem;
+  &:hover {
+      transform: scale(1.1); // Zoom in the background on hover
+  }
+
+  .content {
+      position: absolute;
+      bottom: 4rem;
+      color: $color-light-1;
+      text-align: center;
+      font-size: 8rem;
+
+      h1 {
+          font-size: 6rem;
+      }
+
+      .feature-box__icon {
+          font-size: 8rem;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          z-index: 99;
+          
+          svg {
+              margin: 0;
+              font-size: 8rem;
+          }
+      }
+  }
+}
+
+  

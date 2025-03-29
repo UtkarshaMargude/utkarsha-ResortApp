@@ -1,0 +1,63 @@
+.terms_and_condition_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 0 auto;
+  .p_tag {
+    font-size: 3rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.773);
+  }
+  .p_tag_01 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.737);
+  }
+  .h_tag_01 {
+    font-size: 4rem;
+    color: rgba(0, 0, 0, 0.773);
+    max-width: 100rem;
+    font-weight: 600;
+  }
+  .h_tag {
+    font-size: 5rem;
+    color: rgba(0, 0, 0, 0.773);
+    max-width: 100rem;
+    font-weight: 600;
+  }
+  .tab_section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+  .terms_info {
+    margin-top: 2rem;
+    max-width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    .list_heading {
+      margin: 4rem 0;
+      margin-bottom: 1rem;
+
+      .li_section {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+      }
+    }
+    .p_02_tag:last-of-type {
+      margin-bottom: 2rem;
+    }
+    .p_02_tag {
+      margin-bottom: 1rem;
+    }
+    .h2_bottom_tag {
+      margin-top: 4rem;
+    }
+  }
+}

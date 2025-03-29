@@ -1,0 +1,51 @@
+@import "../../../sass/main.scss";
+
+.rooms_info_div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .p_tag {
+    align-self: flex-start;
+    font-size: 3rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.773);
+    margin-left: 2rem;
+
+    @include respond(phone) {
+      align-self: center;
+    }
+  }
+
+  .h_tag {
+    align-self: flex-start;
+    font-size: 5rem;
+    color: rgba(0, 0, 0, 0.773);
+    max-width: 100rem;
+    font-weight: 600;
+    margin-left: 2rem;
+
+    @include respond(phone) {
+      align-self: center;
+    }
+  }
+
+  .room_card_info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    @include respond(tab-port) {
+      flex-wrap: wrap;
+    }
+
+    @include respond(phone) {
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+}

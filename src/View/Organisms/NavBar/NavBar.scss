@@ -1,0 +1,33 @@
+@import "../../../sass/main.scss";
+.nav_bar_menu_container {
+  width: 100%;
+  height: 8rem;
+  font-size: 2rem;
+  .app_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100%;
+    background-color: $color-asses-02;
+    transition: all 0.3s ease;
+    .resort_logo {
+      width: 12rem;
+      height: 6rem;
+      margin: 0.5rem;
+    }
+    .book_now {
+      margin-right: 2rem;
+    }
+    .menu_icon {
+      margin-left: 2rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      svg {
+        font-size: 5rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+}

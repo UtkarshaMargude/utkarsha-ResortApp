@@ -1,0 +1,23 @@
+@import "../../../sass/main.scss";
+.accordian_container {
+  width: 100%;
+  padding: 0.8rem;
+  .panel-header {
+    background-color: $color-light-01;
+    .css-yw020d-MuiAccordionSummary-expandIconWrapper {
+      display: none;
+    }
+    .title {
+      font-weight: 300;
+      font-size: 1.8rem;
+      color: $color-asses-01;
+    }
+  }
+  .pannel-description {
+    .description {
+      font-weight: 100;
+      font-size: 1.6rem;
+      color: $color-asses-01;
+    }
+  }
+}

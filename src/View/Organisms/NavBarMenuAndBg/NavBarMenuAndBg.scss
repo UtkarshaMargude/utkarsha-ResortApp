@@ -1,0 +1,33 @@
+@import "../../../sass/main.scss";
+
+
+
+.nav_bar_menu_and_bg {
+  width: 100%;
+  position: relative;
+  height: 50rem;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+
+  .nav_bar_menu {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 4rem;
+  }
+
+  .title_div {
+    font-size: 5rem;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 1rem;
+    align-self: center;
+    justify-content: center;
+    animation: moveInBottom 3s ease-out;
+  }
+}

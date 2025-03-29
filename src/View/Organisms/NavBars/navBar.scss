@@ -1,0 +1,21 @@
+@import "../../../sass/main.scss";
+.navBar_container{
+    
+    .button_comp {  
+        font-size: 1.5rem; 
+        padding: 1rem;
+        padding-bottom: 0.5rem;
+        color: $color-primary;
+        &:hover{
+            color: $color-primary;
+        }
+        .running_span{
+            color: $color-primary;
+        }
+    }
+    .icon_button{
+      svg{
+        font-size:4rem; 
+      }  
+    }
+}

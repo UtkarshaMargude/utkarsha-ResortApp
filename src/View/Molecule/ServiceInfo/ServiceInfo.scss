@@ -1,0 +1,18 @@
+@import "../../../sass/main.scss";
+.service_info_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    min-width: 20rem;
+    padding: 1rem;
+    .icon_div{ 
+        margin-bottom: 1rem;
+        svg{
+          font-size: 5rem;   
+        }
+    }
+    .service_title{
+        font-size: 2rem;
+    }
+}

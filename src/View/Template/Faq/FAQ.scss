@@ -1,0 +1,23 @@
+@import "../../../sass/main.scss";
+.faq_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .accordian_items {
+    margin-top: 1rem;
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .heading {
+      padding: 1rem;
+      align-self: flex-start;
+      font-size: 3rem;
+      color: $color-asses-01;
+      font-weight: 500;
+    }
+  }
+}

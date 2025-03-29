@@ -1,0 +1,19 @@
+@import "../../sass/main.scss";
+.tab_button {
+  font-size: 2rem;
+  font-weight: 400;
+  color: $color-asses-01;
+  cursor: pointer;
+  padding: 1rem;
+  padding-bottom: 0.2rem;
+  width: fit-content;
+  text-align: center;
+}
+.active_button {
+  margin: 0 0.4rem;
+  border-bottom: 3px solid salmon; /* Final state of the border */
+  //   animation-name: moveInRight; /* Animation name */
+  //   animation-duration: 0.5s; /* Duration of the animation */
+  //   animation-timing-function: ease-out; /* Timing function */
+  //   animation-fill-mode: forwards; /* Keeps the final state of the animation */
+}

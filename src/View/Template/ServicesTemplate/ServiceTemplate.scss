@@ -1,0 +1,23 @@
+@import "../../../sass/main.scss";
+
+.service_template_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: $color-light-1;
+    padding: 2rem;
+    .all_service_container{
+        width: 100%;
+       flex-wrap: wrap;
+    } h3{ color: $color-secondary;
+        font-weight: 300;
+        font-size: 2rem;
+    }
+    h1{ color: $color-secondary;
+        font-weight: 500;
+        font-size: 4rem;
+    }
+}

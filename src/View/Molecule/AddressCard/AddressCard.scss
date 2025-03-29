@@ -1,0 +1,16 @@
+@import "../../../sass/main.scss";
+.address_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+
+  .flex_column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

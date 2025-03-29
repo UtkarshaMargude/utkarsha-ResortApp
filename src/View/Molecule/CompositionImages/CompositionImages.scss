@@ -1,0 +1,36 @@
+@import "../../../sass/main.scss";
+.composition_images_container {
+  width: 100%;
+  padding: 6rem;
+  font-size: 4rem;
+  @include respond(phone) {
+    max-width: 50rem;
+    margin: 0;
+    padding: 2rem;
+  }
+  .heading-tertiary {
+    font-size: 3rem;
+    color: $color-asses-01;
+  }
+  .paragraph {
+    font-size: 2rem;
+    color: $color-asses-02;
+  }
+  .rooms_info_main_div {
+    margin-top: -2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .rooms_info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    .room_count {
+      font-size: 10rem;
+      color: $color-asses-01;
+    }
+  }
+}

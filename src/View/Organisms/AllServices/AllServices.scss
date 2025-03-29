@@ -1,0 +1,26 @@
+@import "../../../sass/main.scss";
+
+.all_services_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+flex-wrap: wrap;
+  > * {
+    animation: slideUp 1s ease-out forwards;
+    animation-delay: calc(1s * var(--i)); /* Adjust delay to create the sequential effect */
+    opacity: 0; /* Ensure elements are hidden before animation starts */
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(20px); /* Start position: slightly below */
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0); /* End position: in place */
+    opacity: 1;
+  }
+}

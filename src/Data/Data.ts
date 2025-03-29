@@ -141,8 +141,8 @@ export const TeamsInfoData: {
 }[] = [
   {
     imgUrl:
-      "https://media-pnq1-2.cdn.whatsapp.net/v/t61.24694-24/347484543_200503602811058_7771531668860474579_n.jpg?ccb=11-4&oh=01_Q5AaILZr2sVhwoxu2whi8QeYADl-3Znb_oIOLY6Pbhtp4OiL&oe=66C2B8E1&_nc_sid=5e03e0&_nc_cat=106",
-    name: "Anshul Karasai",
+      "https://www.pnrao.com/wp-content/uploads/2023/06/dummy-user-female.jpg",
+    name: "Utkarsha Margude",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.",
     title: "Owner",

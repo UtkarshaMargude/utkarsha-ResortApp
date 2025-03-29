@@ -16,12 +16,12 @@ export const Pages = () => {
         <NavBarMenuAndBg />
       </Grid>
       <Routes>
-        <Route path="/utkarsha-ResortApp/" element={<HomePage />} />
-        <Route path="/utkarsha-ResortApp/a" element={<Home />} />
-        <Route path="/utkarsha-ResortApp/about_us" element={<AboutUsPage />} />
-        <Route path="/utkarsha-ResortApp/contact_us" element={<ContactUsPage />} />
-        <Route path="/utkarsha-ResortApp/faq" element={<Faq />} />
-        <Route path="/utkarsha-ResortApp/terms_and_conditions" element={<Terms />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/a" element={<Home />} />
+        <Route path="/about_us" element={<AboutUsPage />} />
+        <Route path="/contact_us" element={<ContactUsPage />} />
+        <Route path="/faq" element={<Faq />} />
+        <Route path="/terms_and_conditions" element={<Terms />} />
         <Route path="*" element={<HomePage />} />
       </Routes>
       <Grid xs={12} sm={12} md={12} container>

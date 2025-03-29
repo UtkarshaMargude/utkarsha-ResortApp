@@ -17,11 +17,11 @@ export const Pages = () => {
       </Grid>
       <Routes>
         <Route path="/swiss-resort/" element={<HomePage />} />
-        <Route path="/a" element={<Home />} />
-        <Route path="/about_us" element={<AboutUsPage />} />
-        <Route path="/contact_us" element={<ContactUsPage />} />
-        <Route path="/faq" element={<Faq />} />
-        <Route path="/terms_and_conditions" element={<Terms />} />
+        <Route path="/swiss-resort/a" element={<Home />} />
+        <Route path="/swiss-resort/about_us" element={<AboutUsPage />} />
+        <Route path="/swiss-resort/contact_us" element={<ContactUsPage />} />
+        <Route path="/swiss-resort/faq" element={<Faq />} />
+        <Route path="/swiss-resort/terms_and_conditions" element={<Terms />} />
         <Route path="*" element={<HomePage />} />
       </Routes>
       <Grid xs={12} sm={12} md={12} container>

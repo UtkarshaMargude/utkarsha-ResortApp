@@ -16,7 +16,7 @@ export const Pages = () => {
         <NavBarMenuAndBg />
       </Grid>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/swiss-resort/" element={<HomePage />} />
         <Route path="/a" element={<Home />} />
         <Route path="/about_us" element={<AboutUsPage />} />
         <Route path="/contact_us" element={<ContactUsPage />} />
